@@ -1,0 +1,30 @@
+header {
+    color: cornsilk;
+    background-color: coral;
+    padding: 20px;
+}
+nav {
+
+color: darkred;
+background-color: darkkhaki; 
+padding: 10px;
+}
+section {
+    float: left;
+    width: 70%;
+    color: darkseagreen;
+    background-color: darkslategrey;
+}
+footer {
+    float: left;
+    width: 30%;
+    color: gold;
+    background-color: dimgrey;
+    padding: 10px;
+}
+
+.contenedor::after {
+    content: ;
+    display:block
+    clear: both;
+}
